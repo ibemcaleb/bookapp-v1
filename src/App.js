@@ -126,13 +126,13 @@ function App() {
             handleDelete={handleDelete}
           />} />
           <Route path="book">
-            <Route index element={<Books />} />
+            {/* <Route index element={<Books />} /> */}
             <Route path=":id" element={<BookDetail 
               books={books}
             />} />
           </Route>
           <Route path="edit">
-            <Route index element={<Books />} />
+            {/* <Route index element={<Books />} /> */}
             <Route path=":id" element={<EditBook 
               books={books}
               uuid={uuid}
@@ -141,15 +141,15 @@ function App() {
               handleEditedOnChange={handleEditedOnChange}
               handleEditedOnSubmit={handleEditedOnSubmit}
             />} />
-          </Route>
-          <Route path="create" element={<NewBook 
+          </Route> 
+        </Route>
+        <Route path="create" element={<NewBook 
             newBook={newBook}
             handleAddOnChange={handleAddOnChange}
             handleAddOnSubmit={handleAddOnSubmit}
           />} />
-          <Route path="about" element={<About />} />
-        </Route>
-        {/* <Route path="*" element={<Missing />} /> */}
+        <Route path="about" element={<About />} />
+        <Route path="*" element={<Missing />} />
       </Routes>
     </div>
   );
