@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/github.com/bookapp-v1/static/css/main.37ff7d4a.css",
-    "main.js": "/github.com/bookapp-v1/static/js/main.15635fb0.js",
-    "index.html": "/github.com/bookapp-v1/index.html",
-    "main.37ff7d4a.css.map": "/github.com/bookapp-v1/static/css/main.37ff7d4a.css.map",
-    "main.15635fb0.js.map": "/github.com/bookapp-v1/static/js/main.15635fb0.js.map"
+    "main.css": "/bookapp-v1/static/css/main.37ff7d4a.css",
+    "main.js": "/bookapp-v1/static/js/main.15635fb0.js",
+    "index.html": "/bookapp-v1/index.html",
+    "main.37ff7d4a.css.map": "/bookapp-v1/static/css/main.37ff7d4a.css.map",
+    "main.15635fb0.js.map": "/bookapp-v1/static/js/main.15635fb0.js.map"
   },
   "entrypoints": [
     "static/css/main.37ff7d4a.css",
