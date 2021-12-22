@@ -149,7 +149,7 @@ function App() {
           />} />
           <Route path="about" element={<About />} />
         </Route>
-        <Route path="*" element={<Missing />} />
+        {/* <Route path="*" element={<Missing />} /> */}
       </Routes>
     </div>
   );
