@@ -6,11 +6,11 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HarshRouter>
+    <HashRouter>
       <Routes>
         <Route path="/*" element={<App />} />
       </Routes>
-    </HarshRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
