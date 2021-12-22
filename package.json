@@ -2,7 +2,7 @@
   "name": "crud-app-v1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ibemcaleb/bookapp-v1",
+  "homepage": "https://ibemcaleb/github.com/bookapp-v1",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
