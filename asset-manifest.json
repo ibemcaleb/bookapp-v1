@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ibemcaleb/bookapp-v1/static/css/main.37ff7d4a.css",
+    "main.js": "/ibemcaleb/bookapp-v1/static/js/main.15635fb0.js",
+    "index.html": "/ibemcaleb/bookapp-v1/index.html",
+    "main.37ff7d4a.css.map": "/ibemcaleb/bookapp-v1/static/css/main.37ff7d4a.css.map",
+    "main.15635fb0.js.map": "/ibemcaleb/bookapp-v1/static/js/main.15635fb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37ff7d4a.css",
+    "static/js/main.15635fb0.js"
+  ]
+}
