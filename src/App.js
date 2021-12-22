@@ -148,8 +148,8 @@ function App() {
             handleAddOnSubmit={handleAddOnSubmit}
           />} />
           <Route path="about" element={<About />} />
-          <Route path="*" element={<Missing />} />
         </Route>
+        <Route path="*" element={<Missing />} />
       </Routes>
     </div>
   );
