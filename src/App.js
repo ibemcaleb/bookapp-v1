@@ -142,14 +142,17 @@ function App() {
               handleEditedOnSubmit={handleEditedOnSubmit}
             />} />
           </Route> 
-        </Route>
-        <Route path="create" element={<NewBook 
+          <Route path="create" element={<NewBook 
             newBook={newBook}
             handleAddOnChange={handleAddOnChange}
             handleAddOnSubmit={handleAddOnSubmit}
           />} />
-        <Route path="about" element={<About />} />
-        <Route path="*" element={<Missing />} />
+          <Route path="about" element={<About />} />
+          <Route path="*" element={<Missing />} />
+        </Route>
+        
+        
+       
       </Routes>
     </div>
   );
